@@ -1,0 +1,83 @@
+  .heading
+  {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div
+  {
+    float: none;
+    background: white ; 
+    padding: 10px;
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px rgb(123, 235, 255);
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+ 
+  canvas {
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 160px;
+  }
+
+  strong {
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    margin-right: 250px;
+  }
+
+  #test_div {
+    box-shadow:5px 5px 5px rgb(97, 111, 114);
+    text-align: left;
+    width: 1500px;
+    height: 800px;
+  }
+
+  #after_br {
+    padding-left: 800px;
+  }
+
+  #after_after_br {
+    padding-left: 800px;
+  }
+  
+  p {
+    color: white;
+    font-size: 16.5px;
+    padding-left: 50px;
+    margin-right: 250px;
+    font-weight: bold;
+  }
+
+ #buttoney {
+    color: red;
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 75px;
+  }
+
+  #score {
+    color: white;
+    font-size: 50px;
+    padding-left: 50px;
+    margin-left: 49%;
+    font-weight: bold;
+
+  }
+
+  #final {
+    color: white;
+    font-size: 25px;
+    padding-left: 50px;
+    margin-left: 49%;
+    font-weight: bold;
+
+  }

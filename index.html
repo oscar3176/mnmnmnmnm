@@ -1,0 +1,66 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="background.jpg">
+<center>
+  <h3 class="btn btn-primary heading">Real Time Image Identification App
+    <hr style = "border-color: rgb(127, 236, 255); border-width: 3px;">
+    <center>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+        We are using Mobilenet as a Model  
+        <br>
+          <div class="btn heading_div2">
+          Mobilenet model is trained on <br> more than 1.3 million images
+          </div>
+        </div>
+    </center>
+    <br>
+    <br>
+    <br>
+  </h3>
+  <span>
+    <button id = "buttoney" onclick="loadFootball()">Test Football</button>
+    <button id = "buttoney" onclick="loadLion()">Test Lion</button>
+    <button id = "buttoney" onclick="loadShoes()">Test Shoes</button>
+    <button id = "buttoney" onclick="loadEarth()">Test Earth</button>
+    <button id = "buttoney" onclick="loadHouse()">Test House</button>
+    <button id = "buttoney" onclick="loadCar()">Test Car</button>
+    <button id = "buttoney" onclick="loadBook()">Test Book</button>
+    <button id = "buttoney" onclick="loadWaterBottle()">Test Water Bottle</button>
+    <button id = "buttoney" onclick="loadComputer()">Test Computer/Desktop</button>
+    <button id = "buttoney" onclick="loadChair()">Test Chair</button>
+  </span>
+  <br><br>
+  <div  id = "test_div" style = "background-color: grey;">
+    <strong>Test Image</strong>
+    <p id = "result_object_name_1"></p>
+    <br>
+    <br>
+    <p id = "result_object_name">Object</p>
+    <br>
+    <strong id = "after_br">Result -</strong>
+    <p id = "final"></p>
+    <hr style="border-color: white;">
+    <strong>I have tested 10 images and Google Lens got 8 correct and Mobile net got 5.5 correct. I say Google Lens is more Accurate.</strong>
+  </div>
+  
+
+</center>
+
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
